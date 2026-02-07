@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Medical Conference Simple</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header>医学会议 H5</header>
+
+
+<section id="auth">
+<input id="email" placeholder="Email" />
+<input id="password" type="password" placeholder="Password" />
+<button onclick="login()">登录</button>
+<button onclick="register()">注册</button>
+<button onclick="logout()">退出</button>
+</section>
+
+
+<section id="experts"></section>
+<section id="forum"></section>
+<section id="schedule"></section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script src="js/supabase.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
